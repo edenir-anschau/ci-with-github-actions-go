@@ -1,10 +1,9 @@
-
 name: ci-golang-worflow
 
 on:
   pull_request:
     branchs:
-      - hello
+      - master 
 
 jobs:
   check-application:
